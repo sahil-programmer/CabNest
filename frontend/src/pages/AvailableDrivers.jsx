@@ -221,10 +221,9 @@ const AvailableDrivers = ({
                 >
                   <div className="flex items-center mb-4">
                     <img
-                      src={`http://localhost:5000/${driver.profileImage?.replace(
-                        /\\/g,
-                        "/"
-                      )}`}
+                      src={`${
+                        import.meta.env.VITE_BACKEND_URL
+                      }/${driver.profileImage?.replace(/\\/g, "/")}`}
                       alt={`Driver ${driver._id.name}`}
                       className="w-16 h-16 rounded-full object-cover mr-4 border-2 border-blue-500"
                     />

@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState, useRef } from "react";
+import { useContext, useEffect, useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { RiderContext } from "../context/RiderContext";
 import { useDriver } from "../context/DriverContext";
@@ -161,7 +161,7 @@ const ProfilePage = (user1) => {
             <div className="relative group">
               <div className="w-32 h-32 rounded-full border-4 border-yellow-400/50 hover:border-yellow-400 transition-all duration-300 overflow-hidden shadow-xl">
                 <img
-                  src={`http://localhost:5000/${normalizedImagePath}`}
+                  src={`${import.meta.env.VITE_BACKEND_URL}/${normalizedImagePath}`}
                   alt="Profile"
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
                   onError={(e) => {

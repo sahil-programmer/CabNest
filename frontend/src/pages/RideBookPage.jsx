@@ -16,9 +16,6 @@ import { Link, useNavigate } from "react-router-dom";
 import { UserData } from "../context/UserContext";
 import axios from "axios";
 import { toast } from "react-toastify";
-import { io } from "socket.io-client";
-import { ChevronDownIcon, UserCircleIcon } from "@heroicons/react/20/solid";
-
 // Animation variants
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },

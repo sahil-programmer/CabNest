@@ -24,7 +24,6 @@ import {
   X,
   Clock,
 } from "lucide-react";
-import { io } from "socket.io-client";
 
 // Fix for default marker icons
 delete L.Icon.Default.prototype._getIconUrl;

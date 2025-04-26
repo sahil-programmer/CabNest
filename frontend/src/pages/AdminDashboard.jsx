@@ -333,7 +333,7 @@ const AdminDashboard = () => {
                   <div className="mt-4">
                     <strong className="text-gray-700">Profile Image:</strong>
                     <img
-                      src={`http://localhost:5000/${selectedUser.profileImage.replace(
+                      src={`${import.meta.env.VITE_BACKEND_URL}/${selectedUser.profileImage.replace(
                         /\\/g,
                         "/"
                       )}`}
