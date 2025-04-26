@@ -11,7 +11,7 @@ import RiderProfile from "./pages/RiderProfile";
 import DriverProfile from "./pages/DriverProfile";
 import ProfilePage from "./pages/ProfilePage";
 import DriverDashboard from "./pages/DriverDashboard";
-import AdminDashboard from "./pages/AdminDashboard";
+import Admindashboard from "./pages/AdminDashboard";
 import PaymentSuccess from "./pages/PaymentSuccess";
 import RideWaitingPage from "./pages/RideWaitingPage";
 import ActiveRidePage from "./pages/ActiveRidePage";
@@ -57,7 +57,7 @@ const App = () => {
         />
         <Route
           path="/admin/dashBoard"
-          element={isAuth ? <AdminDashboard /> : <Login />}
+          element={isAuth ? <Admindashboard /> : <Login />}
         />
         <Route
           path="/payment-successful/:paymentId"
