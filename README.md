@@ -183,7 +183,9 @@ This project is licensed under the MIT License.
 For any inquiries or feedback, feel free to reach out:
 
 - **Email**: sahil16december@gmail.com  
-- **GitHub**: sahil16-12  
+- **GitHub**: sahil16-12
+- **Email**: sahiltarofawala59@gmail.com  
+- **GitHub**: sahil-programmer
 ---
 Made with ❤️ by CabNest Team 🚖✨
 
